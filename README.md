@@ -1,6 +1,7 @@
 # Real-Time Object Detection using TensorFlow.js and COCO-SSD
 
 This project demonstrates real-time object detection using a webcam, powered by TensorFlow.js and the COCO-SSD (Common Objects in Context - Single Shot MultiBox Detector) pretrained model. It allows users to see live predictions of objects in the camera feed directly through their web browser.
+## Duration : 5 hours
 
 ## Tech Stack
 
