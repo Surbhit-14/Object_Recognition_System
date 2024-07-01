@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Recognition</title>
+    <link rel="stylesheet" href="index.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <section class="header">
+        <div>
+            <h1 class="heading">Image Recognition System</h1>
+        </div>
+        <div class="right">
+            <h2 class="list b">Blog</h2>
+            <h2 class="list m">More ML projects</h2>
+            <h2 class="list g">Github</h2>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="container">
+        <div class="body_left">
+            <h1>Multiple object detection using pre trained model in TensorFlow.js</h1>
+            
+            <div id="demos" class="invisible">
+            <div id="liveView" class="camView">
+                
+                <video id="webcam" class="web" autoplay muted></video>
+                <center>
+                    <button id="webcamButton">Enable Webcam</button>
+                </center>
+                
+            </div>
+            </div>
+        </div>
+        <div class="body_right">
+            <h3 class="desc">
+                <p>
+                    Imagine a web application where you can point your camera at objects and instantly get them identified on your screen. That's exactly what our object recognition project does! Powered by TensorFlow.js and the COCO-SSD pretrained models, it brings real-time detection directly to your browser. 
+                    <br><br>
+                    <strong class="s">* Tech Stack</strong> : We've used HTML, CSS, and JavaScript to create a seamless user experience.And tensorflow.js for ml implementation using pretrained model cocossd. The magic happens client-side, meaning all the heavy lifting—like identifying objects—happens right on your device without sending requests to a server.
+                    <br><br>
+                    <strong class="s">* Optimization Tips</strong> : For the best performance, make sure WebGL is enabled in your browser settings. Also, adjust your CORS settings to ensure smooth operation across different domains.
+                    <br><br>
+                    This project not only demonstrates the potential of machine learning in web development but also underscores the importance of optimizing your browser settings for a seamless experience.
+        </p>
+            </h3>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,145 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+#img{
+    width: 100px;
+    height: 100px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+.header{
+    width: 180vh;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.heading{
+    margin-left: 15vh;
+    font-size: 35px;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 15vh;
+    gap: 5vh;
+}
+.list{
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.b:hover{
+    background-color: rgb(243, 148, 89);
+    border-radius: 5px;
+}
+.m:hover{
+    background-color: rgb(243, 148, 89);
+    border-radius: 5px;
+}
+.g:hover{
+    background-color: rgb(243, 148, 89);
+    border-radius: 5px;
+}
+.container{
+    width: 180vh;
+    height: 90vh;
+    margin: auto;
+    background: transparent;
+    display: flex;
+}
+.body_left{
+    display: contents;
+    float: left;
+    display: flex;
+    flex-direction:column ;
+    gap: 10vh;
+}
+.web{
+    border-radius: 10px;
+    border-radius: 2px solid black;
+}
+.body_right{
+    width: 70vh;
+    height: 90vh;
+    float: right
+}
+.desc{
+    width: 70vh;
+    margin: auto;
+    padding-left: 5vh;
+}
+.s{
+    font-size: 25px;
+}
+
+ 
+ button{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 10vh;
+    font-size: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 0 100px 1px black;
+    height: 11vh;
+    
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    color: #3D3D3D;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #FF6F00;
+  }
+  
+  video {
+    display: block;
+  }
+  
+ 
+  
+  
+  .camView {
+    position: relative;
+    float: left;
+    width: calc(100% - 20px);
+    
+    cursor: pointer;
+  }
+  
+  .camView p {
+    position: absolute;
+    padding: 5px;
+    background-color: rgba(255, 111, 0, 0.85);
+    color: #FFF;
+    border: 1px dashed rgba(255, 255, 255, 0.7);
+    z-index: 2;
+    font-size: 12px;
+  }
+  
+  .highlighter {
+    background: rgba(0, 255, 0, 0.25);
+    border: 1px dashed #fff;
+    z-index: 1;
+    position: absolute;
+  }
